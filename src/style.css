@@ -1,0 +1,55 @@
+.carsList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  h1 {
+    text-align: center;
+    padding: 20px 0 50px 0;
+  }
+  
+  .divList {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  
+  .cadrBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    width: 20%;
+    min-height: 500px;
+    max-height: 500px;
+    line-height: 1em;
+    text-align: center;
+  }
+  
+  .descrpt {
+    font-size: small;
+    line-height: 1em;
+  }
+  .modal-content {
+    height: 300px !important;
+  }
+  .formAdd {
+    margin: 10%;
+    position: relative;
+  }
+  
+  .btnAdd {
+    position: absolute;
+    left: 40%;
+    top: 92%;
+  }
+  
